@@ -28,8 +28,8 @@ El programa puede ser llamado sin asignarle parametros de ejecución, en esta fo
         java MyMonkey
 
 ## Uso Avanzado
-El programa tiene parametros de configuración que permiten determinar que eventos van a ser ejecutados, la cantidad de eventos a ejecutar, la aplicacion sobre la cual se ejecutaran y la distribucion de probabilidad de ejecucion de los eventos seleccionados. Con el siguiente ejemplo se ejecuta el programa configurando todos los parametros
-dme
+El programa tiene parametros de configuración que permiten determinar que eventos van a ser ejecutados, la cantidad de eventos a ejecutar, la aplicacion sobre la cual se ejecutaran y la distribucion de probabilidad de ejecucion de los eventos seleccionados. Con el siguiente ejemplo se ejecuta el programa configurando todos los parametros:
+
         java MyMonkey distribution=3,3,4 selectedEvents=tap,swipe,text events=20 package=me.kuhele.carreport installer=C:\Users\rcfor\OneDrive\Documents\GitHub\MyMonkey\Moneky_runner_adhoc\me.kuehle.carreport_62.apk
 
 ### Parametros
