@@ -1,6 +1,3 @@
-<table>
-<tr>
-<td>
 # MyMonkey
 -  [Introducción](#introducción)
 -  [Instalación](#instalación)
@@ -45,13 +42,7 @@ A continuacion se describen los parametros de configuración, cabe resaltar que 
 - package & installer: Estos dos parametros sirven para seleccionar la aplicacion sobre la cual se van a ejecutar los eventos.
  
  - events: Configura la cantidad de eventos a ejecutar.
-</td>
-<td>
-# Espresso
--  [Introducción](#introducción)
-</td>
-</tr>
-</table>
+
 
 ## Author
 * **Camilo Forero**
