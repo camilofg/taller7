@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Jan Kühle
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string-array name="data_list_page_titles">
+        <item>Refuelings</item>
+        <item>Other Expenditures</item>
+        <item>Other Income</item>
+    </string-array>
+
+    <string-array name="repeat_intervals">
+        <item>Once</item>
+        <item>Repeat every day</item>
+        <item>Repeat every month</item>
+        <item>Repeat every quarter</item>
+        <item>Repeat every year</item>
+    </string-array>
+
+    <string-array name="reminder_after_types">
+        <item>After distance or time, whichever comes first</item>
+        <item>After distance</item>
+        <item>After time</item>
+    </string-array>
+
+    <string-array name="time_units">
+        <item>Day(s)</item>
+        <item>Month(s)</item>
+        <item>Year(s)</item>
+    </string-array>
+
+    <integer-array name="selectable_colors">
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/deep_purple</item>
+        <item>@color/indigo</item>
+        <item>@color/blue</item>
+        <item>@color/light_blue</item>
+        <item>@color/cyan</item>
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/light_green</item>
+        <item>@color/lime</item>
+        <item>@color/yellow</item>
+        <item>@color/amber</item>
+        <item>@color/orange</item>
+        <item>@color/deep_orange</item>
+        <item>@color/brown</item>
+        <item>@color/dark_grey</item>
+        <item>@color/blue_grey</item>
+        <item>@color/grey</item>
+        <item>@color/white</item>
+    </integer-array>
+</resources>

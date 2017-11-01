@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Jan Kühle
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_title_category_behavior" >
+        <PreferenceScreen
+            android:fragment="me.kuehle.carreport.gui.PreferencesReportOrderFragment"
+            android:key="behavior_report_order"
+            android:title="@string/pref_title_header_report_order" />
+        <ListPreference
+            android:defaultValue="1"
+            android:key="behavior_default_car"
+            android:title="@string/pref_title_behavior_default_car" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="behavior_show_car_menu"
+            android:summary="@string/pref_summary_behavior_show_car_menu"
+            android:title="@string/pref_title_behavior_show_car_menu" />
+        <ListPreference
+            android:defaultValue="TOTAL"
+            android:key="behavior_distance_entry_mode"
+            android:title="@string/pref_title_behavior_distance_entry_mode" />
+        <ListPreference
+            android:defaultValue="TOTAL_AND_VOLUME"
+            android:key="behavior_price_entry_mode"
+            android:title="@string/pref_title_behavior_price_entry_mode" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="behavior_auto_guess_missing_data"
+            android:summary="@string/pref_summary_behavior_auto_guess_missing_data"
+            android:title="@string/pref_title_behavior_auto_guess_missing_data" />
+        <ListPreference
+            android:defaultValue="7 DAY"
+            android:key="behavior_reminder_snooze_duration"
+            android:title="@string/pref_title_behavior_reminder_snooze_duration" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_category_units" >
+        <EditTextPreference
+            android:defaultValue="EUR"
+            android:key="unit_currency"
+            android:title="@string/pref_title_unit_currency" />
+        <EditTextPreference
+            android:defaultValue="l"
+            android:key="unit_volume"
+            android:title="@string/pref_title_unit_volume" />
+        <EditTextPreference
+            android:defaultValue="km"
+            android:key="unit_distance"
+            android:title="@string/pref_title_unit_distance" />
+        <ListPreference
+            android:defaultValue="0"
+            android:key="unit_fuel_consumption"
+            android:title="@string/pref_title_unit_fuel_consumption" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Jan Kühle
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="about_author">© Jan Kühle</string>
+    <string name="about_thanks">Danke an:</string>
+    <string name="about_version">Version: %s</string>
+    <string name="about_licenses">Lizenzen</string>
+
+    <string name="drawer_reports">Reports</string>
+    <string name="drawer_calculator">Rechner</string>
+    <string name="drawer_settings">Einstellungen</string>
+    <string name="drawer_help">Hilfe</string>
+    <string name="drawer_open">Navigation öffnen</string>
+    <string name="drawer_close">Navigation schließen</string>
+
+    <string name="menu_synchronize">Synchronisieren</string>
+    <string name="menu_save">Fertig</string>
+    <string name="menu_cancel">Abbrechen</string>
+    <string name="menu_delete">Löschen</string>
+    <string name="menu_add_car">Auto hinzufügen</string>
+    <string name="menu_add_fuel_type">Kraftstoff hinzufügen</string>
+    <string name="menu_add_reminder">Erinnerung hinzufügen</string>
+    <string name="menu_show_trend">Trend anzeigen</string>
+    <string name="menu_show_overall_trend">Gesamttrend anzeigen</string>
+
+    <string name="fab_add_refueling">Tankfüllung</string>
+    <string name="fab_add_other_expenditure">Andere Ausgabe</string>
+    <string name="fab_add_other_income">Andere Einnahme</string>
+
+    <string name="section_suspend">Stilllegen</string>
+    <string name="section_advanced">Erweiterte Optionen</string>
+
+    <string name="hint_mileage_optional">Gesamtkilometer (optional)</string>
+    <string name="hint_volume">Volumen</string>
+    <string name="hint_price">Preis</string>
+    <string name="hint_price_total">Gesamtpreis</string>
+    <string name="hint_price_per_unit">Preis pro Einheit</string>
+    <string name="hint_note_optional">Notiz (optional)</string>
+    <string name="hint_title">Titel</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_date">Datum</string>
+    <string name="hint_time">Uhrzeit</string>
+    <string name="hint_end_date">Enddatum</string>
+    <string name="hint_suspend_date">Silllegedatum</string>
+    <string name="hint_category">Kategorie</string>
+    <string name="hint_url">URL</string>
+    <string name="hint_user_name">Benutzername</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_initial_mileage">Initialer Kilometerstand</string>
+    <string name="hint_reminder_after_distance">Nach Kilometern</string>
+    <string name="hint_reminder_after_time">Nach Zeit</string>
+    <string name="hint_reminder_start_mileage">Starte bei Kilometerstand</string>
+    <string name="hint_reminder_start_date">Starte bei Datum</string>
+    <string name="hint_reminder_snoozed_until">Schlummern bis</string>
+
+    <string name="label_partial">Teilfüllung</string>
+    <string name="label_color_in_reports">Farbe in Reports</string>
+    <string name="label_suspend">Stilllegen</string>
+    <string name="label_set_end_date">Enddatum setzen</string>
+    <string name="label_car">Auto</string>
+    <string name="label_recurrence">Wiederholung</string>
+    <string name="label_reminder_type">Typ</string>
+    <string name="label_reminder_dismissed">Benachrichtigung entfernt</string>
+    <string name="label_trust_certificate">Diesem Zertifikat vertrauen</string>
+
+    <string name="description_suspend">Wenn Sie ein Auto nicht mehr benutzen, können Sie es stilllegen. Dadurch werden sich wiederholenden Kosten zu dem Stilllegezeitpunkt beendet. Außerdem zoomen die Reports standardmäßig nur auf aktive Autos.</string>
+    <string name="description_category">Tankfüllungen werden in verschiedenen Reports nach diesen Kateogrien gruppiert. Beispiele: Benzin, Diesel, Gas.</string>
+    <string name="description_reminder_status_due">Fällig</string>
+    <string name="description_reminder_status_due_snoozed">Fällig, schlummert bis %s</string>
+    <string name="description_reminder_status_due_dismissed">Fällig, Benachrichtigung entfernt</string>
+    <string name="description_reminder_status_distance_and_time">Fällig in %1$s oder %2$s</string>
+    <string name="description_reminder_status_distance">Fällig in %s</string>
+    <string name="description_reminder_status_time">Fällig in %s</string>
+    <string name="description_webdav_url">Bitte geben Sie hier die URL zu einem speziellen Ordner für Car Report auf Ihrem WebDAV-Server ein. Car Report wird seine Dateien in diesem Ordner speichern, alles außerhalb des Ordners wird nicht angeführt.</string>
+    <string name="description_webdav_trust_certificate">Die Webseite verwendet ein Zertifikat, dem Android nicht vertraut.</string>
+
+    <string name="validate_error_greater_zero">Muss größer als 0 sein</string>
+    <string name="validate_error_not_empty">Darf nicht leer sein</string>
+    <string name="validate_error_mileage_out_of_range_total">Der Kilometerstand muss bei Eingabe der Gesamtkilometer zwischen dem der letzten und der nächsten Tankfüllung liegen. Wenn Sie Tageskilometer eingeben möchten, können Sie die Eingabemethode in den Einstellungen ändern.</string>
+    <string name="validate_error_mileage_out_of_range_trip">Der kumulierte Kilometerstand darf bei Eingabe der Tageskilometer den Kilometerstand der nächsten Tankfüllung nicht übersteigen. Wenn Sie Gesamtkilometer eingeben möchten, können Sie die Eingabemethode in den Einstellungen ändern.</string>
+    <string name="validate_error_fuel_type_exists">Diese Kaftstoffart existiert bereits.</string>
+    <string name="validate_error_webdav_invalid_certificate">Dem Zertifikat konnte nicht vertraut werden. Es ist möglicherweise beschädigt.</string>
+
+    <string name="suspended">Stillgelegt</string>
+    <string name="suspended_since">Stillgelegt seit %s</string>
+    <string name="overwrite">Überschreiben</string>
+    <string name="restore">Wiederherstellen</string>
+    <string name="import_">Importieren</string>
+    
+    <string name="title_first_start">Erste Schritte</string>
+    <string name="title_add_refueling">Tankfüllung hinzufügen</string>
+    <string name="title_edit_refueling">Tankfüllung bearbeiten</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="title_help">Hilfe</string>
+    <string name="title_add_other_expenditure">Andere Ausgaben hinzufügen</string>
+    <string name="title_add_other_income">Andere Einnahmen hinzufügen</string>
+    <string name="title_edit_other_expenditure">Andere Ausgaben bearbeiten</string>
+    <string name="title_edit_other_income">Andere Einnahmen bearbeiten</string>
+    <string name="title_add_car">Auto hinzufügen</string>
+    <string name="title_edit_car">Auto bearbeiten</string>
+    <string name="title_add_fuel_type">Kraftstoff hinzufügen</string>
+    <string name="title_edit_fuel_type">Kraftstoff bearbeiten</string>
+    <string name="title_add_reminder">Erinnerung hinzufügen</string>
+    <string name="title_edit_reminder">Erinnerung bearbeiten</string>
+    <string name="cab_title_selected">%d ausgewählt</string>
+    <string name="edit_title_refueling">Tankfüllung</string>
+
+    <string name="edit_message_no_entry_selected">Kein Eintrag ausgewählt</string>
+
+    <string name="alert_delete_title">Löschen bestätigen</string>
+    <string name="alert_delete_refueling_message">Diese Tankfüllung wird gelöscht.</string>
+    <string name="alert_delete_refuelings_message">Die %d ausgewählten Tankfüllungen werden gelöscht.</string>
+    <string name="alert_delete_other_expenditure_message">Diese Ausgaben werden gelöscht.</string>
+    <string name="alert_delete_other_income_message">Diese Einnahmen werden gelöscht.</string>
+    <string name="alert_delete_other_expenditures_message">Die %d ausgewählten anderen Kosten werden gelöscht.</string>
+    <string name="alert_delete_other_incomes_message">Die %d ausgewählten anderen Einnahmen werden gelöscht.</string>
+    <string name="alert_delete_car_message">Dieses Auto wird gelöscht.</string>
+    <string name="alert_delete_cars_message">Die %d ausgewählten Autos werden gelöscht.</string>
+    <string name="alert_delete_fuel_types_message">Die %d ausgewählten Kraftstoffe werden gelöscht.</string>
+    <string name="alert_delete_reminder_message">Diese Erinnerung wird gelöscht.</string>
+    <string name="alert_delete_reminders_message">Die %d ausgewählten Erinnerungen werden gelöscht.</string>
+    <string name="alert_cannot_delete_last_car">Das letzte Auto kann nicht gelöscht werden.</string>
+    <string name="alert_cannot_delete_fuel_type">Der Kraftstoff kann nicht gelöscht werden, weil er von mindestens einer Tankfüllung oder einem Kraftstofftank verwendet wird.</string>
+    <string name="alert_about_licenses_title">Lizenzen</string>
+    <string name="alert_change_color_title">Farbe auswählen</string>
+    <string name="alert_sync_finishing_authentication">Authentifizierung wird abgeschlossen…</string>
+    <string name="alert_sync_performing_first_sync">Erster Sync wird durchgeführt…</string>
+    <string name="alert_sync_first_sync_message">Es sind Online-Daten vorhanden. Welche Daten möchten Sie bei der ersten Synchronisation behalten.</string>
+    <string name="alert_sync_first_sync_download">Online-Daten</string>
+    <string name="alert_sync_first_sync_upload">Lokale Daten</string>
+    <string name="alert_sync_first_sync_error">Bei der ersten Synchronisation ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass Sie eine Internetverbinding haben und versuchen Sie es erneut.</string>
+    <string name="alert_backup_overwrite_title">Sichern</string>
+    <string name="alert_backup_overwrite_message">Es gibt bereits eine Sicherungsdatei auf der SD-Karte.</string>
+    <string name="alert_backup_failed">Sichern fehlgeschlagen</string>
+    <string name="alert_restore_title">Wiederherstellen</string>
+    <string name="alert_restore_message">Beim Wiederherstellen werden alle aktuellen Daten überschrieben. Versichern Sie sich außerdem, dass die Sicherung von einer App mit gleicher oder niedrigerer Version als der installierten stammt.</string>
+    <string name="alert_restore_failed">Wiederherstellen fehlgeschlagen</string>
+    <string name="alert_export_csv_overwrite_title">CSV exportieren</string>
+    <string name="alert_export_csv_overwrite_message">Es existieren bereits Exportdaten von einem vorigen Export auf der SD-Karte.</string>
+    <string name="alert_export_csv_failed">Export fehlgeschlagen.\n\nFehlerursache: %s</string>
+    <string name="alert_import_csv_title">CSV importieren</string>
+    <string name="alert_import_csv_message">Der Import aktualisiert bestehende Einträge und fügt neue hinzu, löscht aber keine Einträge.</string>
+    <string name="alert_import_csv_failed">Import fehlgeschlagen. Es wurden keine Daten verändert.\n\nFehlerursache: %s</string>
+    <string name="alert_error_title">Fehler</string>
+
+    <string name="toast_new_refueling">Benzinverbrauch: %1$.2f %2$s %3$s</string>
+    <string name="toast_backup_succeeded">Sichern der Daten zur Datei %s war erfolgreich.</string>
+    <string name="toast_restore_succeeded">Wiederherstellen der Daten war erfolgreich</string>
+    <string name="toast_export_csv_succeeded">Export auf die SD-Karte war erfolgreich</string>
+    <string name="toast_import_csv_succeeded">Importieren der Daten war erfolgreich</string>
+    <string name="toast_need_storage_permission">Um diese Aktion durchzuführen, braucht Car Report Zugriff auf Ihre Dateien.</string>
+    
+    <string name="report_title_fuel_consumption">Benzinverbrauch</string>
+    <string name="report_title_fuel_price">Benzinpreis</string>
+    <string name="report_title_mileage">Kilometerstand</string>
+    <string name="report_title_costs">Kosten</string>
+    <string name="report_trend_label">%s (Trend)</string>
+    <string name="report_overall_trend_label">%s (Gesamttrend)</string>
+    <string name="report_graph_month_history">Monat Historie</string>
+    <string name="report_graph_year_history">Jahr Historie</string>
+    <string name="report_graph_accumulated">Kumuliert</string>
+    <string name="report_graph_per_refueling">Pro Tankfüllung</string>
+    <string name="report_graph_per_month">Pro Monat</string>
+    <string name="report_not_enough_data">Zu wenige Daten</string>
+    <string name="report_since">&#931; seit %s</string>
+    <string name="report_last_year">&#931; seit einem Jahr</string>
+    <string name="report_lowest">Niedrigster</string>
+    <string name="report_highest">Höchster</string>
+    <string name="report_average">Durchschnitt</string>
+    <string name="report_day">Tag</string>
+    <string name="report_month">Monat</string>
+    <string name="report_year">Jahr</string>
+    <string name="report_toast_fuel_consumption">%1$s: %2$.2f %3$s von %4$s am %5$s</string>
+    <string name="report_toast_fuel_price">%1$.3f %2$s für %3$s am %4$s</string>
+    <string name="report_toast_mileage">"%1$s: %2$d %3$s am %4$s"</string>
+    <string name="report_toast_mileage_month">"%1$s: %2$.0f %3$s im %4$s"</string>
+    <string name="report_toast_costs">%1$s: %2$.0f %3$s im %4$s</string>
+    <string name="report_toast_guessed">Geschätzt um fehlende Tankfüllungen auszugleichen.</string>
+    <string name="report_price">%1$.2f %2$s</string>
+    <string name="report_price_estimated">vsl. %1$.2f %2$s</string>
+
+    <string name="pref_title_header_about">Über Car Report</string>
+    <string name="pref_title_header_general">Allgemeine Einstellungen</string>
+    <string name="pref_title_header_cars">Autos</string>
+    <string name="pref_title_header_fuel_types">Kraftstoffe</string>
+    <string name="pref_title_header_reminders">Erinnerungen</string>
+    <string name="pref_title_header_backup">Sichern &amp; Exportieren</string>
+    <string name="pref_title_header_report_order">Reihenfolge der Reports</string>
+    <string name="pref_title_category_behavior">Verhalten</string>
+    <string name="pref_title_category_units">Einheiten</string>
+    <string name="pref_title_category_synchronization">Synchronisation</string>
+    <string name="pref_title_category_backup">Sichern &amp; Wiederherstellen</string>
+    <string name="pref_title_category_export">Exportieren &amp; Importieren</string>
+    <string name="pref_title_behavior_default_car">Standard-Auto</string>
+    <string name="pref_title_behavior_show_car_menu">Zeige Autoauswahlmenü</string>
+    <string name="pref_title_behavior_distance_entry_mode">Entfernungseingabe</string>
+    <string name="pref_title_behavior_price_entry_mode">Preiseingabe</string>
+    <string name="pref_title_behavior_auto_guess_missing_data">Fehlende Tankfüllungen ausgleichen (Beta)</string>
+    <string name="pref_title_behavior_reminder_snooze_duration">Schlummerdauer für Erinnerungen</string>
+    <string name="pref_title_unit_currency">Währung</string>
+    <string name="pref_title_unit_volume">Volumen</string>
+    <string name="pref_title_unit_distance">Entfernung</string>
+    <string name="pref_title_unit_fuel_consumption">Benzinverbrauch</string>
+    <string name="pref_title_sync_setup">Synchronisation einrichten</string>
+    <string name="pref_title_backup">Sichern</string>
+    <string name="pref_title_restore">Wiederherstellen</string>
+    <string name="pref_title_exportcsv">CSV exportieren</string>
+    <string name="pref_title_importcsv">CSV importieren</string>
+    <string name="pref_summary_behavior_show_car_menu">Zeige ein Menü zur Autoauswahl, wenn Sie eine Tankfüllung hinzufügen und mehr als ein Auto haben.</string>
+    <string name="pref_summary_behavior_auto_guess_missing_data">Versuche fehlende Tankfüllungen zu erkennen. Dadurch werden die erheblich geringeren Benzinverbräuche, die entstehen, wenn eine Tankfüllung verbessen wird einzutragen, ausgeglichen.</string>
+    <string name="pref_summary_sync_setup">Das ist eine sehr einfache Synchronisation. Wenn Sie auf zwei Geräten gleichzeitig etwas ändern und dann synchronisieren, wird das Gerät, das später synchronisiert, seine Änderungen verlieren. Achten Sie auch darauf die gleiche Version von Car Report auf allen Geräten installiert zu haben.</string>
+    <string name="pref_summary_sync_current_provider">Verbunden mit %s. Klicke, um die Verbindung zu trennen.</string>
+    <string name="pref_summary_backup">Daten auf der SD-Karte sichern.</string>
+    <string name="pref_summary_restore">Daten aus der Datei %s von der SD-Karte wiederherstellen.</string>
+    <string name="pref_summary_restore_no_data">Die Datei %s wurde nicht auf der SD-Karte gefunden.</string>
+    <string name="pref_summary_export_csv">Daten als CSV exportieren, um sie in anderen Programmen wie Microsoft Excel oder LibreOffice Calc verwenden zu können.</string>
+    <string name="pref_summary_import_csv">Daten von CSV-Dateien importieren. Die Dateien müssen so aussehen, wie die, die beim Export generiert werden.</string>
+    <string name="pref_summary_import_csv_no_data">Es wurden Dateien im Ordner %s auf der SD-Karte gefunden.</string>
+    
+    <string name="help_section_getting_started">Einstieg</string>
+    <string name="help_section_tips">Tipps</string>
+    <string name="help_section_calculations">Berechnungen</string>
+    <string name="help_section_fuel_types">Kraftstoffe</string>
+    <string name="help_section_csv">CSV</string>
+    <string name="help_folder_name">help-de</string>
+
+    <string name="first_start_hi">Hallo!</string>
+    <string name="first_start_intro">Car Report kann Reports über Ausgaben für deine Autos anzeigen, z.B. Benzinverbrauch und gesamte Kosten. Starte mit diesen einfachen Schritten:</string>
+    <string name="first_start_step1_img_desc">Erster Schritt</string>
+    <string name="first_start_step1_text">Erstelle ein Auto.</string>
+    <string name="first_start_step2_img_desc">Zweiter Schritt</string>
+    <string name="first_start_step2_text">Füge Tankfüllungen hinzu.</string>
+    <string name="first_start_step3_img_desc">Dritter Schritt</string>
+    <string name="first_start_step3_text">Nach zwei Tankfüllungen solltest du die ersten Graphen sehen.</string>
+    <string name="first_start_create_car">Auto erstellen</string>
+    <string name="first_start_setup_sync">Synchronisation einrichten</string>
+
+    <string name="calc_option_volume_to_distance">Volumen (%1$s) nach Strecke (%2$s)</string>
+    <string name="calc_option_distance_to_volume">Strecke (%1$s) nach Volumen (%2$s)</string>
+    <string name="calc_option_volume_to_price">Volumen (%1$s) nach Preis (%2$s)</string>
+    <string name="calc_option_price_to_volume">Preis (%1$s) nach Volumen (%2$s)</string>
+    <string name="calc_option_distance_to_price">Strecke (%1$s) nach Preis (%2$s)</string>
+    <string name="calc_option_price_to_distance">Preis (%1$s) nach Strecke (%2$s)</string>
+    <string name="calc_option_distance_to_fuel_price">Strecke (%1$s) nach Benzinpreis (%2$s)</string>
+    <string name="calc_option_fuel_price_to_distance">Benzinpreis (%1$s) nach Strecke (%2$s)</string>
+
+    <string name="notification_reminder_channel">Erinnerungen</string>
+    <string name="notification_reminder_title_single">Erinnerung: %s</string>
+    <string name="notification_reminder_title_multiple">Mehrere Erinnerungen</string>
+    <string name="notification_reminder_action_done">Erledigt</string>
+    <string name="notification_reminder_action_snooze">Schlummern</string>
+    <string name="notification_reminder_action_snooze_all">Alle schlummern</string>
+
+    <string name="distance_entry_mode_trip">Tageskilometer</string>
+    <string name="distance_entry_mode_total">Gesamtkilometer</string>
+    <string name="price_entry_mode_per_unit_and_volume">Preis pro Einheit &amp; Volumen</string>
+    <string name="price_entry_mode_per_unit_and_total">Preis pro Einheit &amp; Gesamtpreis</string>
+    <string name="price_entry_mode_total_and_volume">Gesamtpreis &amp; Volumen</string>
+    <string name="missing_refueling">Fehlende Tankfüllung</string>
+    <string name="invalid_data">Dieser Eintrag ist fehlerhaft. Bearbeiten und speichern Sie ihn um detaillierte Meldungen zu erhalten.</string>
+    <string name="graph_details_desc">Graph-Details</string>
+    <string name="graph_options_desc">Graph-Optionen</string>
+    <string name="graph_close_full_screen_desc">Vollbildgraph schließen</string>
+    <string name="drag_handle_desc">Drag-Bereich</string>
+    <string name="quit_snooze_desc">Schlummern beenden</string>
+    <string name="notice_not_paid">Nicht bezahlt</string>
+</resources>

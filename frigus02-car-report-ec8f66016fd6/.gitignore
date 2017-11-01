@@ -1,0 +1,9 @@
+.gradle
+.idea
+.DS_Store
+build
+*.apk
+*.iml
+*.iws
+local.properties
+Thumbs.db
